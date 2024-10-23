@@ -6,7 +6,7 @@
     <title>To-Do List App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-customBackground flex justify-center items-start min-h-screen">
+  <body class="bg-customBackground flex justify-center items-start min-h-screen select-none">
     <div class="flex max-w-[450px] flex-col items-center justify-center">
       <div class="text-white z-10 flex max-w-[450px] flex-col items-center justify-center">
         <h1 class="text-[48px] justify-start font-semibold">My Todo List</h1>
@@ -18,8 +18,8 @@
           <button class="" onclick="">Add</button>
         </div>
 
-        <div class="">
-          <input type="date" id="due-val" />
+        <div class="pt-2">
+          <input class="bg-customInputBkg text-whiteTransparent2 rounded-[10px] pb-[5px] pt-[5px] pl-[30px] pr-[30px]" type="date" id="due-val" />
         </div>
 
         <ul id="list-contain">
