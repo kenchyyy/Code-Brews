@@ -554,12 +554,17 @@ video {
   display: none;
 }
 
-.z-10 {
-  z-index: 10;
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 43 55 / var(--tw-bg-opacity));
 }
 
 .flex {
   display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .max-w-\[450px\] {
@@ -578,6 +583,20 @@ video {
   justify-content: center;
 }
 
-.font-medium {
-  font-weight: 500;
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.bg-customBackground {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 43 55 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
