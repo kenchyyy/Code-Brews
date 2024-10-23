@@ -554,12 +554,30 @@ video {
   display: none;
 }
 
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+.z-10 {
+  z-index: 10;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.flex {
+  display: flex;
+}
+
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-medium {
+  font-weight: 500;
 }
