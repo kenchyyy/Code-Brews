@@ -564,6 +564,14 @@ body {
   z-index: 10;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -596,12 +604,12 @@ body {
   justify-content: center;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .bg-customBackground {
@@ -609,15 +617,27 @@ body {
   background-color: rgb(40 43 55 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[48px\] {
   font-size: 48px;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-whiteTransparent {
+  color: #FFFFFF99;
 }
