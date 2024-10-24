@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       if (parsedDate < new Date()) {
-          alert("Due date cannot be in the past.");
+          alert("Due date cannot be in the past or today.");
           return;
       }
     
