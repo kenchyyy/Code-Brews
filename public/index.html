@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-customBackground flex justify-center items-start min-h-screen select-none">
+    <div class="flex max-w-[450px] flex-col items-center justify-center">
+      <div class="text-white z-10 flex max-w-[450px] flex-col items-center justify-center">
+        <h1 class="text-[48px] justify-start font-semibold">My Todo List</h1>
+        <h3 class="text-[16px] text-whiteTransparent mb-3 font-normal">Must Do them ASAP!</h3>
+        <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="606" height="2" viewBox="0 0 606 2" fill="none">
+          <path d="M1 1L605 1.00005" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+          <div class="flex justify-end">
+            <!-- Input box and Add button -->
+            <input class="bg-customInputBkg max-w-[1200px] min-w-[540px] m-5 mr-0 pr-[165px] p-4 rounded-[20px]" type="text" id="input-box" placeholder="Type in New Task" />
+            <button class="bg-customAddBtnBkg absolute mt-5 z-10 w-[150px] p-4 rounded-[20px] hover:bg-opacity-80" type="submit" onclick="">Add</button>
+          </div>
+        </div>
+
+        <div class="pt-2">
+          <input class="bg-customInputBkg text-whiteTransparent2 rounded-[10px] pb-[5px] pt-[5px] pl-[30px] pr-[30px]" type="date" id="due-val" />
+        </div>
+
+        <ul id="list-contain">
+          <!-- Tasks appear here -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

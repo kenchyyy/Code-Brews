@@ -96,6 +96,7 @@
     "thenify-all": "^1.6.0",
     "to-regex-range": "^5.0.1",
     "ts-interface-checker": "^0.1.13",
+    "tw": "^0.1.2",
     "update-browserslist-db": "^1.1.1",
     "util-deprecate": "^1.0.2",
     "which": "^2.0.2",
@@ -108,7 +109,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
+    "tw": "npx tailwindcss --watch -i ./src/input.css -o ./public/style.css "
+=======
     "tw": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+>>>>>>> main
   },
   "keywords": [],
   "author": "",
